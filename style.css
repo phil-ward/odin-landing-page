@@ -66,3 +66,35 @@ section.hero{
     border-radius: 8px;
     padding: 4px 24px;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.information>h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.card {
+    width: 180px;
+    height: 220px;
+
+}
+
+.card>img{
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
