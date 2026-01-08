@@ -155,3 +155,11 @@ section.hero{
 .cta-text {
     font-weight: lighter;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 2% 0%;
+}
